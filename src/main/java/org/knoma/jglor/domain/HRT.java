@@ -1,4 +1,4 @@
-package domain;
+package org.knoma.jglor.domain;
 
 import java.math.BigDecimal;
 

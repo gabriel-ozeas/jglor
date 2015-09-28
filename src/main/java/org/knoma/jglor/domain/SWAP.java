@@ -1,21 +1,23 @@
-package domain;
+package org.knoma.jglor.domain;
 
 import java.math.BigDecimal;
 
 /**
+ * Short Wavelength Perimetry
+ *
  * Created by gabriel on 26/09/15.
  */
-public class FDP {
+public class SWAP {
     private BigDecimal totalDeviation;
     private BigDecimal patternDeviation;
     private BigDecimal meanDeviation;
-    private BigDecimal patterStandardDeviation;
+    private BigDecimal patternStandardDeviation;
 
-    public FDP(BigDecimal totalDeviation, BigDecimal patternDeviation, BigDecimal meanDeviation, BigDecimal patterStandardDeviation) {
+    public SWAP(BigDecimal totalDeviation, BigDecimal patternDeviation, BigDecimal meanDeviation, BigDecimal patternStandardDeviation) {
         this.totalDeviation = totalDeviation;
         this.patternDeviation = patternDeviation;
         this.meanDeviation = meanDeviation;
-        this.patterStandardDeviation = patterStandardDeviation;
+        this.patternStandardDeviation = patternStandardDeviation;
     }
 
     public BigDecimal getTotalDeviation() {
@@ -42,21 +44,21 @@ public class FDP {
         this.meanDeviation = meanDeviation;
     }
 
-    public BigDecimal getPatterStandardDeviation() {
-        return patterStandardDeviation;
+    public BigDecimal getPatternStandardDeviation() {
+        return patternStandardDeviation;
     }
 
-    public void setPatterStandardDeviation(BigDecimal patterStandardDeviation) {
-        this.patterStandardDeviation = patterStandardDeviation;
+    public void setPatternStandardDeviation(BigDecimal patternStandardDeviation) {
+        this.patternStandardDeviation = patternStandardDeviation;
     }
 
     @Override
     public String toString() {
-        return "FrequencyDoublingPerimetry{" +
+        return "ShortWavelengthPerimetry{" +
                 "totalDeviation=" + totalDeviation +
                 ", patternDeviation=" + patternDeviation +
                 ", meanDeviation=" + meanDeviation +
-                ", patterStandardDeviation=" + patterStandardDeviation +
+                ", patternStandardDeviation=" + patternStandardDeviation +
                 '}';
     }
 
@@ -86,8 +88,8 @@ public class FDP {
             return this;
         }
 
-        public FDP build() {
-            return new FDP(totalDeviation, patternDeviation, meanDeviation, patternStandardDeviation);
+        public SWAP build() {
+            return new SWAP(totalDeviation, patternDeviation, meanDeviation, patternStandardDeviation);
         }
     }
 }

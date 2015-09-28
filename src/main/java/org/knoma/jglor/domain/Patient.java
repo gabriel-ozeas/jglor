@@ -1,4 +1,4 @@
-package domain;
+package org.knoma.jglor.domain;
 
 /**
  * Created by gabriel on 28/09/15.

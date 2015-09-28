@@ -1,6 +1,6 @@
 package org.knoma.jglor.generators;
 
-import domain.GDX;
+import org.knoma.jglor.domain.GDX;
 
 import java.math.BigDecimal;
 

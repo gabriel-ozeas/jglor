@@ -1,7 +1,7 @@
-package csv;
+package org.knoma.jglor.csv;
 
 import java.util.List;
-import domain.Patient;
+import org.knoma.jglor.domain.Patient;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
 import org.knoma.jglor.generators.PatientGenerator;
@@ -9,7 +9,6 @@ import org.knoma.jglor.generators.PatientGenerator;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.stream.IntStream;
 
 /**
  * Created by gabriel on 28/09/15.
@@ -27,7 +26,6 @@ public class CSVFileExporter {
             for (Patient patient : patients) {
                 csvPrinter.printRecord(new PatientCSVConverter().convert(patient));
             }
-
 
             FileWriter writer = new FileWriter(file);
             writer.write(builder.toString());

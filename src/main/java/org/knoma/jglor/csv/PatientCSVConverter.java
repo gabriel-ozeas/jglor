@@ -1,8 +1,7 @@
-package csv;
+package org.knoma.jglor.csv;
 
-import domain.Patient;
+import org.knoma.jglor.domain.Patient;
 
-import java.math.MathContext;
 import java.util.List;
 import java.util.ArrayList;
 

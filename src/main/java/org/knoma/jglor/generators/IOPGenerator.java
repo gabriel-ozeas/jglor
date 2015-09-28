@@ -1,6 +1,6 @@
 package org.knoma.jglor.generators;
 
-import domain.IOP;
+import org.knoma.jglor.domain.IOP;
 
 import java.math.BigDecimal;
 import java.math.MathContext;

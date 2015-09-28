@@ -1,6 +1,6 @@
 package org.knoma.jglor.generators;
 
-import domain.Patient;
+import org.knoma.jglor.domain.Patient;
 
 /**
  * Created by gabriel on 28/09/15.

@@ -1,6 +1,6 @@
 package org.knoma.jglor.generators;
 
-import domain.SWAP;
+import org.knoma.jglor.domain.SWAP;
 
 import java.math.BigDecimal;
 

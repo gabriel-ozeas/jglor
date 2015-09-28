@@ -1,6 +1,6 @@
 package org.knoma.jglor.generators;
 
-import domain.VA;
+import org.knoma.jglor.domain.VA;
 
 import java.math.BigDecimal;
 

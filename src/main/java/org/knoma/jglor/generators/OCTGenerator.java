@@ -1,6 +1,6 @@
 package org.knoma.jglor.generators;
 
-import domain.OCT;
+import org.knoma.jglor.domain.OCT;
 
 import java.math.BigDecimal;
 

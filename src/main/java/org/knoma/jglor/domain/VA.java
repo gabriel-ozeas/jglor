@@ -1,15 +1,18 @@
-package domain;
+package org.knoma.jglor.domain;
 
 import java.math.BigDecimal;
 
 /**
- * Created by gabriel on 25/09/15.
+ * Created by gabriel on 26/09/15.
  */
-public class IOP {
+public class VA {
     private BigDecimal leftEye;
     private BigDecimal rightEye;
 
-    public IOP(BigDecimal leftEye, BigDecimal rightEye) {
+    public VA() {
+    }
+
+    public VA(BigDecimal leftEye, BigDecimal rightEye) {
         this.leftEye = leftEye;
         this.rightEye = rightEye;
     }
@@ -18,12 +21,12 @@ public class IOP {
         return leftEye;
     }
 
-    public void setLeftEye(BigDecimal leftEye) {
-        this.leftEye = leftEye;
-    }
-
     public BigDecimal getRightEye() {
         return rightEye;
+    }
+
+    public void setLeftEye(BigDecimal leftEye) {
+        this.leftEye = leftEye;
     }
 
     public void setRightEye(BigDecimal rightEye) {
@@ -32,7 +35,7 @@ public class IOP {
 
     @Override
     public String toString() {
-        return "IntraocularPressure{" +
+        return "VA{" +
                 "leftEye=" + leftEye +
                 ", rightEye=" + rightEye +
                 '}';

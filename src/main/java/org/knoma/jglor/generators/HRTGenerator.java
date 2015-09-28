@@ -1,6 +1,6 @@
 package org.knoma.jglor.generators;
 
-import domain.HRT;
+import org.knoma.jglor.domain.HRT;
 
 import java.math.BigDecimal;
 

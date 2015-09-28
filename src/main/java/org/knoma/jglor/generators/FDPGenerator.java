@@ -1,6 +1,6 @@
 package org.knoma.jglor.generators;
 
-import domain.FDP;
+import org.knoma.jglor.domain.FDP;
 
 import java.math.BigDecimal;
 
